@@ -1,0 +1,68 @@
+{
+  "datas": [
+    {
+      "firstName": "Mikey",
+      "lastName": "Mouse",
+      "phoneNumber": "0555-4444-1234",
+      "email": "mikey@Mouse.com",
+      "note": "Jakarta",
+      "id": 1
+    },
+    {
+      "firstName": "Goofy",
+      "lastName": "The Dog",
+      "phoneNumber": "0555-4444-1236",
+      "email": "goofey@The Dog.com",
+      "note": "Cirebon",
+      "id": 2
+    },
+    {
+      "firstName": "Donald",
+      "lastName": "Duck",
+      "phoneNumber": "0555-4444-1238",
+      "email": "Donald@Duck.com",
+      "note": "Bandung",
+      "id": 3
+    },
+    {
+      "firstName": "Upin",
+      "lastName": "ipin",
+      "phoneNumber": "0555 777 123 458",
+      "email": "Pin2@gmail.com",
+      "note": "Jl.Batu-Raden II no-10 Ciwastra Bandung",
+      "id": 5
+    },
+    {
+      "firstName": "Batman",
+      "lastName": "Kassarung",
+      "phoneNumber": "0852 7777 495",
+      "email": "batman@proton.co.id",
+      "note": "NewYork",
+      "id": 7
+    },
+    {
+      "firstName": "sponge",
+      "lastName": "Bob",
+      "phoneNumber": "0817 1111 321",
+      "email": "Spong@obob.co.ic",
+      "note": "California",
+      "id": 8
+    },
+    {
+      "firstName": "Eugene",
+      "lastName": "Crabs",
+      "phoneNumber": "0855 2564 1111",
+      "email": "Crusty@crab.com",
+      "note": "Jakarta",
+      "id": 9
+    },
+    {
+      "firstName": "Patrick",
+      "lastName": "Stars",
+      "phoneNumber": "0111 222 444 56",
+      "email": "patrick@star.com",
+      "note": "Bekai",
+      "id": 10
+    }
+  ]
+}

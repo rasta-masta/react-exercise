@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Skranji:wght@700&display=swap');
+
+
+body{
+ font-family: 'Lato', sans-serif;
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ background-color:lightgray;
+ }
+
+.cover{
+  max-width: 800px;
+  height: 1400px;
+  margin: 60px auto;
+  border-radius: 10px;
+  box-shadow: 10px 20px 20px rgba(46, 44, 44, 0.6);
+  background: linear-gradient(to right, rgba(255,255,255, 0.2) 0 100%), url('./assets/cover.jpg');
+}
+
+/* navbar */
+.nav{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  align-items:baseline;
+}
+
+.nav a{
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  transition: color linear 0.25s;
+}
+
+.nav a:hover{
+ color:red;
+}
+
+.home{
+  padding: 10px 5px;
+  background-color: coral;
+  border-radius: 4px;
+  box-shadow: 2px 2px 4px rgb(13, 13, 14);
+}
+
+/* drop-down menu */
+ .container{
+    position: relative;
+    display: inline-block;
+  }
+  .content-menu{
+    display: none;
+    position: absolute;
+    top: 25px;
+    min-width: 160px;
+    background-color: bisque;
+    box-shadow: 1px 1px 10px rgba(76, 68, 68, 0.9);
+    border-radius: 5px;
+    transition: display linear 0.55s;
+  }
+
+  .btn{
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    background-color:transparent;
+    border: none;
+    cursor: pointer;
+  }
+
+  .btn:hover{
+     color:chocolate;
+  }
+ 
+  .content-menu a{
+    display: block;
+    padding: 12px 16px;
+  }
+  .content-menu a:hover{
+    background-color:black;
+  }
+  .container:hover .content-menu{
+    display: block;  
+  }
+
+.worksheet{
+  width: 600px;
+  height: 1200px;
+  margin: 100px auto;
+  box-shadow: 5px 5px 30px black;
+  border-radius: 8px;
+  background-color: transparent;
+}
+
+/* content kotak didalam */
+.home-content{
+  height: 443px;
+  text-align: center;
+  border: 0.5px solid transparent;
+}
+
+.title p{
+  margin: 0;
+  font-size: 30px;
+  font-family: 'Skranji', cursive;
+  text-shadow: 5px 5px 20px coral; 
+}
+
+.box-home{
+  width: 200px;
+  height: 200px;
+  margin: 60px 200px 10px;
+  border: 10px outset coral;
+  border-radius: 50%;
+  background-image: url('./src/assets/photo1.png');
+  background-size: cover;  
+  box-shadow: 0px 8px 25px black; 
+  animation : rotate360 30s linear infinite
+}
+
+/* footer */
+
+.footer-content{
+  display: flex;
+  margin-top: 590px;
+  height: 160px;
+  background-color: black;
+  color: white;
+  gap: 280px;
+}
+.myContact{
+  margin: 20px 0 0 15px;
+}
+
+.footer-content p{
+  margin: 0px;
+  margin: 10px;
+}
+.social-media{
+  margin-top: 40px;
+}
+
+.social-media img{
+  width: 15%;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+/* worksheet bagian bawah */
+.about{
+  height: 590px;
+  margin: 70px auto;
+  border-radius: 50px;
+}
+
+.about h1{
+  font-family: 'Skranji', cursive;
+}
+
+.about p{
+  font-size: 20px;
+}
+
+.education{
+  height: 590px;
+  margin: 70px auto;
+  border-radius: 50px;
+}
+
+/* tabel contact me */
+.contact-me{
+  max-width: 400px;
+  margin: 5px auto;
+}  
+
+/* .add-container h2{
+  margin-top: 50px;
+  text-align: center;
+} */
+
+.contact-me label{
+  margin: 0px;
+}
+
+.contact-me input{
+  width: 100%;
+  padding: 6px 10px;
+  margin: 5px 0 30px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+}
+
+.contact-me textarea{
+  width: 100%;
+  padding: 6px 10px;
+  margin: 5px 0 15px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+}
+.contact-me button{
+  padding: 7px 10px ;  
+  border: none;
+  background-color: rgba(12, 91, 116, 0.4);
+  cursor: pointer;
+  border-radius: 3px;
+  transition: box-shadow 0.25s linear;
+  font-size: 16px;
+}
+
+.contact-me button:hover {
+ box-shadow: 2px 2px rgba(0, 0, 0, 0.9);
+}
+
+@keyframes rotate360{
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* @media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .box-home {
+    animation: box-home-spin infinite 15s linear;
+  }
+} */
+
+
+
